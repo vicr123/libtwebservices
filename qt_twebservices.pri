@@ -1,0 +1,9 @@
+QT.twebservices.VERSION = 1.0
+QT.twebservices.MAJOR_VERSION = 1
+QT.twebservices.MINOR_VERSION = 1
+QT.twebservices.name = twebservices
+QT.twebservices.module = twebservices
+QT.twebservices.depends = core dbus thelib
+QT.twebservices.includes = $$QT_MODULE_INCLUDE_BASE $$QT_MODULE_INCLUDE_BASE/libtwebservices/
+QT.twebservices.libs = $$QT_MODULE_LIB_BASE
+QT_MODULES += twebservices
