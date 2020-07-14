@@ -36,7 +36,7 @@ unix {
     target.path = $$[QT_INSTALL_LIBS]
     header.path = $$[QT_INSTALL_HEADERS]/libtwebservices
 
-    module.files = qt_tdesktopenvironment.pri
+    module.files = qt_twebservices.pri
     module.path = $$[QMAKE_MKSPECS]/modules
 
     INSTALLS = target module header
