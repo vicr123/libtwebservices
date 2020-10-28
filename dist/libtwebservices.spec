@@ -12,8 +12,8 @@ BuildRequires:  make qt5-devel the-libs-devel
 Requires:       qt5 the-libs
 %endif
 
-%if 0%{?fedora} == 33
-BuildRequires:  make qt5-qtbase-devel the-libs-devel
+%if 0%{?fedora} >= 33
+BuildRequires:  make qt5-qtbase-devel the-libs-devel qt5-linguist
 Requires:       qt5-qtbase the-libs
 %endif
 

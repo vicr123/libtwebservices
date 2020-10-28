@@ -13,7 +13,7 @@ Requires:       qt5 the-libs-blueprint
 %endif
 
 %if 0%{?fedora} >= 33
-BuildRequires:  make qt5-qtbase-devel the-libs-blueprint-devel
+BuildRequires:  make qt5-qtbase-devel the-libs-blueprint-devel qt5-linguist
 Requires:       qt5-qtbase the-libs-blueprint
 %endif
 
