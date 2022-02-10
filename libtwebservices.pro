@@ -33,7 +33,7 @@ unix {
     # Include the-libs build tools
     include(/usr/share/the-libs/pri/gentranslations.pri)
 
-    target.path = $$[QT_INSTALL_LIBS]
+    target.path = $$THELIBS_INSTALL_LIB
     header.path = $$[QT_INSTALL_HEADERS]/libtwebservices
 
     module.files = qt_twebservices.pri
